@@ -1,12 +1,11 @@
-@import url('https://fonts.google.com/specimen/Tilt+Warp');
-@import url('https://fonts.google.com/specimen/Anton');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
 :root {
     --primary-color: #226f54;
     --secondary-color: #43291f;
     --accent1-color: #da2c38;
     --accent2-color: #87c38f;
   
-    --heading-font: 'https://fonts.google.com/specimen/Anton', serif;
+    --heading-font: 'https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap', serif;
     --paragraph-font: 'https://fonts.google.com/specimen/Tilt+Warp', serif;
   
     --nav-background-color: #f4f0bb ;
