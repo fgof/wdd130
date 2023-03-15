@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Warp&display=swap');
+:root {
+    --primary-color: #226f54;
+    --secondary-color: #43291f;
+    --accent1-color: #da2c38;
+    --accent2-color: #87c38f;
+  
+    --heading-font: 'Bebas Neue', serif;
+    --paragraph-font: 'Tilt Warp', serif;
+  
+    --nav-background-color: #f4f0bb ;
+    --nav-link-color: rgb(218, 43, 54) ;
+    --nav-hover-link-color: #87c38f ;
+    --nav-hover-background-color: #f4f0bb ;
+}
+body {
+    padding: 20px;
+    font-family: var(--paragraph-font);
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+.hero {
+    position: relative;
+}
+.hero h1{
+    position: absolute;
+    font-family: var(--heading-font);
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.hero article {
+    position: absolute;
+    padding: 20px;
+    top: 250px;
+    left:100px;
+    right: 100px;
+    background-color: rgba(218, 44, 56, .60);
+}
+.hero img{
+    width: 100%;
+}
+.hero article img {
+    float: right;
+    width: 200px;
+}
+
