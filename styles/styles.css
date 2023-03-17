@@ -3,18 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
-
   h1 {
     color: steelblue;
+  }
+  main{
+    grid-column: 2/3;
+    margin: 1rem;
   }
   main img {
     width: 150px;
@@ -30,14 +43,16 @@ nav {
     left: 82px;
   }
   aside {
-    width: 20em;
-    margin: 1em;
+    width: 20rem;
+    margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
     padding: 1em;
     background-color: #eee;
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
   }
 
   aside img {
@@ -62,7 +77,11 @@ nav {
   .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 1rem;
+    padding: 2rem;
     background-color: #ddd;
     color: #000; 
+  }
+  .grid{
+    display: grid;
+    align-items: center;
   }
