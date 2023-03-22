@@ -24,6 +24,18 @@ nav {
     font-size: 1.2rem;
     display: flex;
 }
+.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr, 2fr;
+  }
+.grid nav{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid rgba(218, 44, 56);
+    grid-column: 2/3;
+    grid-row: 1;
+}
 .hero {
     position: relative;
 }
@@ -47,20 +59,7 @@ nav {
 }
 .hero article img {
     float: right;
-    width: 200px;
-}
-.grid{
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr, 2fr;
-  }
-.grid nav{
-    display:flex;
-    justify-content: space-between;
-    border: 1px solid rgba(218, 44, 56);
-    grid-column: 2/3;
-    grid-row: 1;
-    
+    width: 600px;
 }
 figure {
     border: thin #c0c0c0 solid;
@@ -83,23 +82,15 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+button{
+    background-color:#87c38f;
+}
 .flexbox-container{
     display:flex;
-}
-section{
-    padding: 5xp;
-    border: 1px solid rgba(218, 44, 56);
 }
 section h2{
     text-align: center;
 }
 .sociallinks{
     justify-content: flex-end;
-}
-.history img{
-    max-width: 220px;
-    max-height: 150px;
-}
-.history p{
-    text-align: right;
 }

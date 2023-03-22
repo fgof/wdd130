@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - User Poll</title>
+  <link rel="stylesheet" href="wdd130\styles\poll-form.css">
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Your Name | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail">
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <label for="browser">Whats your favorite browser?</label>
+            <select name="browser" id="browser">
+                <option value="">--Please select an option--</option>
+                <option value="Google">Google</option>
+                <option value="bing">Bing</option>
+                <option value="firefox">Firefox</option>
+                <option value="internetexplorer">Internet Explorer</option>
+                <option value="yahoo">Yahoo</option>
+            </select>
+            <label for="pets">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="lived">List the places you have lived:</label>
+            <input type="textarea" id="lived" name="lived" rows="6" placeholder="Rock Hill SC, Casper WY, Windsor CO ">
+        </fieldset>
+        <input type="submit" value="Submit Poll"/>
+    </form>
+
+</main>
+<footer>
+  <p>©2024 | HTML Form - User Poll Activity | Gracie Osborn</p>
+</footer>
+</body>
+</html>
