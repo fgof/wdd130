@@ -18,6 +18,7 @@ header{
 body {
     padding: 20px;
     font-family: var(--paragraph-font);
+    color: var(--secondary-color);
 }
 nav {
     background-color: var(--nav-background-color);
@@ -76,14 +77,11 @@ figure img {
 }
 
 figcaption {
-    background-color: #222;
+    background-color:#43291f;
     color: #fff;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
-}
-button{
-    background-color:#87c38f;
 }
 .flexbox-container{
     display:flex;
@@ -94,3 +92,13 @@ section h2{
 .sociallinks{
     justify-content: flex-end;
 }
+button{
+    background-color:#43291f;
+    border: none;
+    color:#87c38f;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Tilt Warp', serif;
+  }
