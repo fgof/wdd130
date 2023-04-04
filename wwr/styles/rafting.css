@@ -60,7 +60,6 @@ nav {
     margin: 1rem auto;
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr, 2fr;
     padding: 15px;
   }
 .grid nav{
@@ -99,7 +98,6 @@ figcaption {
     background-color: #87c38f;
 }
 section{
-    padding: 5xp;
     border: 1px solid #226f54;
     background-color: #87c38f;
 }
