@@ -102,7 +102,6 @@ figcaption {
 section{
     border: 1px solid #226f54;
     background-color: #87c38f;
-    display: flex;
 }
 section h2{
     text-align: center;
@@ -208,4 +207,8 @@ table {
 .info {
     display: flex;
     justify-content: center;
+}
+.home-img{
+    display: flex;
+    
 }
