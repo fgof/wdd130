@@ -8,7 +8,7 @@
     --heading-font: 'Bebas Neue', serif;
     --paragraph-font: 'Tilt Warp', serif;
   
-    --nav-background-color: #f4f0bb ;
+    /* --nav-background-color: #f4f0bb ; */
     --nav-link-color: rgb(218, 43, 54) ;
     --nav-hover-link-color: #87c38f ;
 }
@@ -94,8 +94,10 @@ figcaption {
 }
 .flexbox-container{
     display:flex;
-    padding: 25px;
+    padding: 10px;
     background-color: #87c38f;
+    /* justify-content: space-around; */
+    align-items: center;
 }
 section{
     border: 1px solid #226f54;
@@ -106,6 +108,7 @@ section h2{
 }
 .sociallinks{
     justify-content: flex-end;
+    /* background-color: #87c38f; */
 }
 .history img{
     max-width: 220px;
@@ -151,5 +154,48 @@ textarea {
     padding: 5px;
   }
   .hero .contact-photo img{
-    width:580px;
+    width:600px;
   }
+.flexbox-item {
+    width: auto;
+    margin: 10px;
+    border: 3px solid #f8f8f8;
+    padding: 15px;
+    text-align: center;
+}
+.flexbox-item-1 {
+    min-height: 400px;
+}
+.flexbox-item-2 {
+    min-height: 400px;
+}
+.flexbox-item-3 {
+    min-height: 350px;
+}
+.flexbox-item-4 {
+    min-height: 350px;
+}
+.flexbox-item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+td{
+    border: 3px solid #226f54;
+}
+thead, tfoot{
+    background-color: #87c38f;
+    color: #226f54;
+}
+table {
+    min-width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+    border-collapse: collapse;
+}
+.table-title{
+    text-align: center;
+    background-color: #226f54;
+}
